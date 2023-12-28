@@ -1,60 +1,70 @@
+/* General styling for the whole page */
 body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Gradient background */
+    font-family: 'Poppins', sans-serif; /* Set the font for the entire page */
 }
 
+/* Styling for the form container */
 #form {
-    width: 300px;
-    margin: 20vh auto 0 auto;
-    padding: 20px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    font-size: 12px;
+    width: 300px; /* Set form width */
+    margin: 20vh auto 0 auto; /* Center form vertically and horizontally */
+    padding: 20px; /* Add padding inside the form */
+    background-color: whitesmoke; /* Form background color */
+    border-radius: 4px; /* Rounded corners for the form */
+    font-size: 12px; /* Base font size for elements in the form */
 }
 
+/* Styling for the form's title */
 #form h1 {
-    color: #0f2027;
-    text-align: center;
+    color: #0f2027; /* Color of the form's title */
+    text-align: center; /* Center-align the title text */
 }
 
+/* Styling for the form's button */
 #form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-    background-color: rgb(41, 57, 194);
-    border: none;
-    border-radius: 4px;
+    padding: 10px; /* Padding inside the button */
+    margin-top: 10px; /* Space above the button */
+    width: 100%; /* Make the button fill the container */
+    color: white; /* Text color for the button */
+    background-color: rgb(41, 57, 194); /* Background color for the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
 }
 
+/* Styling for input control groups */
 .input-control {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
 }
 
+/* General styling for inputs */
 .input-control input {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 100%;
+    border: 2px solid #f0f0f0; /* Border for the input */
+	border-radius: 4px; /* Rounded corners for the input */
+	display: block; /* Ensure the input is a block element */
+	font-size: 12px; /* Font size for the input text */
+	padding: 10px; /* Padding inside the input */
+	width: 100%; /* Make input fill the width of its container */
 }
 
+/* Styling for an input when it's focused */
 .input-control input:focus {
-    outline: 0;
+    outline: 0; /* Remove default focus outline */
 }
 
+/* Styling for inputs within a .success container */
 .input-control.success input {
-    border-color: #09c372;
+    border-color: #09c372; /* Green border indicating success */
 }
 
+/* Styling for inputs within an .error container */
 .input-control.error input {
-    border-color: #ff3860;
+    border-color: #ff3860; /* Red border indicating error */
 }
 
+/* Styling for the error message text */
 .input-control .error {
-    color: #ff3860;
-    font-size: 9px;
-    height: 13px;
+    color: #ff3860; /* Color for the error message */
+    font-size: 9px; /* Smaller font size for error message */
+    height: 13px; /* Fixed height for error message */
 }
